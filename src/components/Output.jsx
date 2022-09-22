@@ -31,8 +31,8 @@ export default function Output({ data }) {
 				${JSON.parse(val[5])},
 				${JSON.parse(val[6])}
 			]
-		}${i !== editedArr.length-1 ? `,` : ''}
-	`)}{`]
+		}${i !== editedArr.length-1 ? `,` : ''}`)}{`
+	]
 }`
 	}</pre>
   )
